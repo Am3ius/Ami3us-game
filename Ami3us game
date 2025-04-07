@@ -189,7 +189,6 @@ def main_game_loop():
         pygame.display.flip()
         clock.tick(fps)
 
-# Game loop
 while True:
     show_menu()
     main_game_loop()
